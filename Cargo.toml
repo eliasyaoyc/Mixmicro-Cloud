@@ -1,5 +1,5 @@
 [package]
-name = "rich-threadpool"
+name = "es-bully"
 version = "0.1.0"
 authors = ["Elias.Yao <siran0611@gmail.com>"]
 edition = "2018"

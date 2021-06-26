@@ -1,6 +1,10 @@
-# Rich ThreadPool
+# ES-Bully
 
-Much like a java thread pool that provides generic scheduling、timing scheduling
+A variant of the Bully consensus algorithm like es.
+
+# What is Bully? 
+
+# What dose the es improve?
 
 # License
 
