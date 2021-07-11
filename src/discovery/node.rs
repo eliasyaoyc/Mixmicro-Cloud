@@ -1,11 +1,16 @@
 use crate::{Result, Lifecycle};
 use crate::request::{ElectionResp, AliveResp, VictoryResp};
-use crate::discovery::Discovery;
+use crate::discovery::{Discovery, Lifecycle};
 use crate::fault_detection::FaultDetection;
 use crate::elect_master_service::ElectMasterService;
 use crate::no_master_block_service::NoMasterBlockService;
 use crate::master_service::MasterService;
 use crate::cluster::Cluster;
+use crate::discovery::discovery::Discovery;
+use crate::discovery::cluster::Cluster;
+use crate::discovery::elect_master_service::ElectMasterService;
+use crate::discovery::no_master_block_service::NoMasterBlockService;
+use crate::discovery::master_service::MasterService;
 
 pub struct Node {
     id: &'static str,
